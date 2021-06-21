@@ -1,3 +1,3 @@
 # hello-world2
 Just another repository
-This is hust a test
+This is just a test
