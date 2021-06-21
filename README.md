@@ -1,3 +1,3 @@
-# hello-world2
+# hello-world
 Just another repository
 This is just a test
