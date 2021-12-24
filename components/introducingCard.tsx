@@ -5,7 +5,7 @@ type Props = {
     title: string;
 }
 
-const introducingCard : VFC<Props> = ({image, title}) => {
+const IntroducingCard : VFC<Props> = ({image, title}) => {
     return(
         <div>
             <img src={image} alt={title}/>
@@ -14,4 +14,4 @@ const introducingCard : VFC<Props> = ({image, title}) => {
     )
 }
 
-export default introducingCard;
+export default IntroducingCard;

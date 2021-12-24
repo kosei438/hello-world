@@ -1,13 +1,13 @@
 import { VFC } from "react";
-import introducingCard from "../introducingCard"
+import IntroducingCard from "../introducingCard"
 
-const cardsSection : VFC = () => {
+const CardsSection : VFC = () => {
     return (
         <>
             <div>
                 hello
             </div>
-            <introducingCard
+            <IntroducingCard
                 image="/mars.jpg"
                 title="Mars"
             />
@@ -15,4 +15,4 @@ const cardsSection : VFC = () => {
     )
 }
 
-export default cardsSection;
+export default CardsSection;
