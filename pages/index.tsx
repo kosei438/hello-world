@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import CardsSection from '../components/sections/cards'
+import Button from '../components/button'
 
 const Home: NextPage = () => {
   return (
@@ -55,6 +56,9 @@ const Home: NextPage = () => {
         </div>
       </main>
       <CardsSection/>
+      <Button
+        link="https://www.google.com/"
+      />
 
       <footer className={styles.footer}>
         <a
