@@ -3,24 +3,26 @@ import { VFC } from "react";
 
 type Props = {
     link: string;
+    text: string;
 }
 
 
-const Button: VFC<Props> = ({ link }) => {
+const Button: VFC<Props> = ({ link, text }) => {
 
     return (
         <>
             <a href={link.toString()} rel="noreferrer noopener">
-                click here
+                {text}
             </a>
             <style jsx>{`
                 a {
-                    border: solid;
+                    border: 1px solid #eaeaea;
                     padding: 1rem;
-                    background-color: black;
-                    color: white;
-                    margin: 3rem;
                     border-radius: 1rem;
+                }
+                a:hover {
+                    color: #0070f3;
+                    border-color: #0070f3;
                 }
             `}</style>
         </>
